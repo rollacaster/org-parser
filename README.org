@@ -115,6 +115,15 @@ At the moment, you can run =org-parser= from Clojure, Java or from
 NodeJS. Other targets which are hosted on the JVM or on JavaScript are
 possible.
 
+** Clojure Library
+*** Leiningen/Boot
+#+BEGIN_SRC
+[org-parser "0.1.0-SNAPSHOT"]
+#+END_SRC
+*** Clojure CLI/deps.edn
+#+BEGIN_SRC
+org-parser/org-parser {:mvn/version "0.1.0-SNAPSHOT"}
+#+END_SRC
 ** Clojure
 
 =lein run file.org=, for example:
